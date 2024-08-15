@@ -1,4 +1,4 @@
-package academics;
+// package academics;
 import java.util.*;
 public class complex_method {
 	public void input(String x , String y) {
