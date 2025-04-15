@@ -13,7 +13,6 @@ class Generic_pract_7<T> {
    public void addInt(Integer var1) {
       this.integerList.add(var1);
    }
-
    public void addString(String var1) {
       this.stringList.add(var1);
    }

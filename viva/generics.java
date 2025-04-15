@@ -47,9 +47,10 @@ class ops<T> {
 
     void countpal() {
         int x = 0;
-        Iterator y = arrayList.iterator();
+        Iterator y = this.arrayList.iterator();
         while (y.hasNext()) {
-            if (ispalindrome((String) y.next())) {
+            String z = (String) y.next();
+            if (this.ispalindrome(z)) {
                 System.out.println((String) y.next());
                 x++;
             }
